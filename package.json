@@ -1,0 +1,17 @@
+{
+  "name": "docker-appinsights-logger",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node src/index",
+    "missing": "npx dependency-sync --once --debug src/index.js"
+  },
+  "dependencies": {
+    "applicationinsights": "1.0.6",
+    "dockerode": "2.5.7"
+  },
+  "files": [
+    "src"
+  ],
+  "private": true,
+  "license": "Apache-2.0"
+}
